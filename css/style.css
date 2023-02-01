@@ -1,170 +1,105 @@
 @charset "UTF-8";
-* {margin: 0; padding: 0; text-decoration: none;font-family: Arial, Helvetica, sans-serif;}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho01 {
+    background-color: #1f2937;
+    width: 1000px;
+}
+
+.cabecalho02 {
+    color: #f9faf8;
+    background-color: #1f2937;
+    width: 1000px;
+    height: 400px;
+}
+
+h2 {
+    color: #f9faf8;
+}
+
+div.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    width: 400px;
+}
+
+div.header-link {
+    width: 400px;
+}
 
 a {
-    color: #f9faf8;
-}
-
-h1 {
-    font-size: 48px;
-}
-
-.menu_sup {
-    background-color: #1f2937;
-    padding: 10px 70px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    color: #f9faf8;
-    padding: 0px;
-    margin: 0px;
-    width: 50%;
-}
-
-.menu02 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu03 {
-    display: flex;
-    flex-direction: column;
-}
-
-.signup {
-    background-color: #3882f6;
-    font-size: 20px;
-    height: 40px;
-    width: 120px;
-    margin: 5px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu04 {
-    background-color: darkgrey;
-    height: 180px;
-    width: 402px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-menu {
-    font-size: 20px;
-    color: #1f2937;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-menu {
-    display: flex;
-    height: 160px;
-    justify-content: center;
-    align-items: center;
-}
-
-.image {
-    background-color: brown;
-    border-color: #3882f6;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 20px;
-    height: 150px;
-    width: 150px;
-}
-
-.inf-menu {
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.inf-text {
-    width: 150px;
-    margin: 20px;
-    display: flex;
-}
-
-.middle-text {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    padding: 50px 50px 0px 50px;
-    font-size: 24pt;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-mid {
-    width: 800px;
-}
-
-.autor-text {
-    background-color: #e5e7eb;
-    font-size: 14pt;
-    color: #1f2937;
-    padding: 0px 80px 50px 50px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.menu-inf {
     color: #e5e7eb;
-    display: flex;
-    justify-content: center;    
+    margin: 0px 5px 0px 5px;
 }
 
-.menu-inf-item {
-    background-color: #3882f6;
+div.cabecalho02 {
+    background-color:#1f2937
+    width: 1000px;
+}
+
+div.maintext {
     width: 400px;
-    height: 100px;
-    display: flex;
-    align-items: center;
+    height: 250px;
 }
 
-.menu-inf-item.item01 {
-    border-radius: 10px 0px 0px 10px;
+div.image {
+    background-color: gray;
+    width: 400px;
+    height: 250px;
+}
+
+div.text01 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+div.text02 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+div.btn01 {
+    height: 35px;
+    width: 80px;
+    color: #f9faf8;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+
+/*configurações de flexbox*/
+.flexrow {
     display: flex;
-    padding-left: 30px;
-    justify-content: center;
+    flex-direction: row;
+}
+
+.flexcolumn {
+    display: flex;
     flex-direction: column;
+}
+
+.align-sac {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.align-cfs {
+    justify-content: center;
     align-items: flex-start;
-        
 }
 
-.menu-inf-item.item02 {
-    border-radius: 0px 10px 10px 0px;
-    display: flex;
+.align-cc {
     justify-content: center;
     align-items: center;
-    
-}
-
-.text-menu-btn {
-    font-weight: bolder;
-    border-style: solid;
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-menu-inf.item01 {
-    font-size: 22px;
-    font-weight: bolder;
 }
